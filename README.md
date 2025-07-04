@@ -1,5 +1,7 @@
 # Batch Deleter for ChatGPT History
 
+### Click the image below to watch a quick 10s demo:
+
 [![Demo](./assets/demoV-P.png)](https://youtu.be/NHs5r6YeGi4)
 
 The simple, powerful, and secure tool designed to streamline your workflow and bring order to your ChatGPT sidebar in just a few clicks. Tired of the tedious, one-by-one process of cleaning up your conversation history? This extension is the essential utility you've been missing.
