@@ -1,6 +1,6 @@
 # Batch Deleter for ChatGPT History
 
-### Click the video below
+### Click the video below to watch a quick 10s demo:
 
 [![Demo](./assets/demoV-P.png)](https://youtu.be/NHs5r6YeGi4)
 
