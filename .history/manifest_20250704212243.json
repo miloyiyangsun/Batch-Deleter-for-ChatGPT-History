@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Sequential Batch Deleter",
+    "version": "1.0",
+    "description": "Sequentially deletes a specified number of conversations from your chat history.",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      },
+    "permissions": ["scripting", "storage"],
+    "host_permissions": [
+        "https://chat.openai.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://chat.openai.com/*"],
+            "js": ["selection.js"],
+            "run_at": "document_idle"
+        }
+    ]
+} 

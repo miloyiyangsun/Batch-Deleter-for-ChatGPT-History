@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Button Finder",
+    "version": "1.0",
+    "description": "Finds and logs all button elements on chatgpt.com.",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+        "https://chatgpt.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://chatgpt.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+} 

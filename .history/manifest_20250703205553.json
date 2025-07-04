@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Button Finder",
+    "version": "1.1",
+    "description": "Finds and logs all interactive elements on chatgpt.com when you click the button.",
+    "permissions": ["scripting"],
+    "host_permissions": [
+        "https://chatgpt.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+} 

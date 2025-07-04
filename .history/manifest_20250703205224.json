@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Button Finder",
+    "version": "1.3",
+    "description": "Deletes a specified number of conversations from chatgpt.com.",
+    "permissions": ["scripting", "storage"],
+    "host_permissions": [
+        "https://chatgpt.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+} 
